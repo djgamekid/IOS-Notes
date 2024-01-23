@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F176095F2B601EA700870B09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176095E2B601EA700870B09 /* AppDelegate.swift */; };
+		F17609612B601EA700870B09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17609602B601EA700870B09 /* SceneDelegate.swift */; };
+		F17609632B601EA700870B09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17609622B601EA700870B09 /* ViewController.swift */; };
+		F17609662B601EA700870B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17609642B601EA700870B09 /* Main.storyboard */; };
+		F17609682B601EA800870B09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17609672B601EA800870B09 /* Assets.xcassets */; };
+		F176096B2B601EA800870B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17609692B601EA800870B09 /* LaunchScreen.storyboard */; };
+		F17609762B601EA800870B09 /* RossAgeDisplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17609752B601EA800870B09 /* RossAgeDisplayTests.swift */; };
+		F17609802B601EA800870B09 /* RossAgeDisplayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176097F2B601EA800870B09 /* RossAgeDisplayUITests.swift */; };
+		F17609822B601EA800870B09 /* RossAgeDisplayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17609812B601EA800870B09 /* RossAgeDisplayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F17609722B601EA800870B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17609532B601EA700870B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F176095A2B601EA700870B09;
+			remoteInfo = RossAgeDisplay;
+		};
+		F176097C2B601EA800870B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17609532B601EA700870B09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F176095A2B601EA700870B09;
+			remoteInfo = RossAgeDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F176095B2B601EA700870B09 /* RossAgeDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RossAgeDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176095E2B601EA700870B09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F17609602B601EA700870B09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F17609622B601EA700870B09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F17609652B601EA700870B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F17609672B601EA800870B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F176096A2B601EA800870B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F176096C2B601EA800870B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17609712B601EA800870B09 /* RossAgeDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RossAgeDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17609752B601EA800870B09 /* RossAgeDisplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RossAgeDisplayTests.swift; sourceTree = "<group>"; };
+		F176097B2B601EA800870B09 /* RossAgeDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RossAgeDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176097F2B601EA800870B09 /* RossAgeDisplayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RossAgeDisplayUITests.swift; sourceTree = "<group>"; };
+		F17609812B601EA800870B09 /* RossAgeDisplayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RossAgeDisplayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17609582B601EA700870B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176096E2B601EA800870B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17609782B601EA800870B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17609522B601EA700870B09 = {
+			isa = PBXGroup;
+			children = (
+				F176095D2B601EA700870B09 /* RossAgeDisplay */,
+				F17609742B601EA800870B09 /* RossAgeDisplayTests */,
+				F176097E2B601EA800870B09 /* RossAgeDisplayUITests */,
+				F176095C2B601EA700870B09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F176095C2B601EA700870B09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F176095B2B601EA700870B09 /* RossAgeDisplay.app */,
+				F17609712B601EA800870B09 /* RossAgeDisplayTests.xctest */,
+				F176097B2B601EA800870B09 /* RossAgeDisplayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F176095D2B601EA700870B09 /* RossAgeDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				F176095E2B601EA700870B09 /* AppDelegate.swift */,
+				F17609602B601EA700870B09 /* SceneDelegate.swift */,
+				F17609622B601EA700870B09 /* ViewController.swift */,
+				F17609642B601EA700870B09 /* Main.storyboard */,
+				F17609672B601EA800870B09 /* Assets.xcassets */,
+				F17609692B601EA800870B09 /* LaunchScreen.storyboard */,
+				F176096C2B601EA800870B09 /* Info.plist */,
+			);
+			path = RossAgeDisplay;
+			sourceTree = "<group>";
+		};
+		F17609742B601EA800870B09 /* RossAgeDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F17609752B601EA800870B09 /* RossAgeDisplayTests.swift */,
+			);
+			path = RossAgeDisplayTests;
+			sourceTree = "<group>";
+		};
+		F176097E2B601EA800870B09 /* RossAgeDisplayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F176097F2B601EA800870B09 /* RossAgeDisplayUITests.swift */,
+				F17609812B601EA800870B09 /* RossAgeDisplayUITestsLaunchTests.swift */,
+			);
+			path = RossAgeDisplayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F176095A2B601EA700870B09 /* RossAgeDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17609852B601EA800870B09 /* Build configuration list for PBXNativeTarget "RossAgeDisplay" */;
+			buildPhases = (
+				F17609572B601EA700870B09 /* Sources */,
+				F17609582B601EA700870B09 /* Frameworks */,
+				F17609592B601EA700870B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RossAgeDisplay;
+			productName = RossAgeDisplay;
+			productReference = F176095B2B601EA700870B09 /* RossAgeDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F17609702B601EA800870B09 /* RossAgeDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17609882B601EA800870B09 /* Build configuration list for PBXNativeTarget "RossAgeDisplayTests" */;
+			buildPhases = (
+				F176096D2B601EA800870B09 /* Sources */,
+				F176096E2B601EA800870B09 /* Frameworks */,
+				F176096F2B601EA800870B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17609732B601EA800870B09 /* PBXTargetDependency */,
+			);
+			name = RossAgeDisplayTests;
+			productName = RossAgeDisplayTests;
+			productReference = F17609712B601EA800870B09 /* RossAgeDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F176097A2B601EA800870B09 /* RossAgeDisplayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F176098B2B601EA800870B09 /* Build configuration list for PBXNativeTarget "RossAgeDisplayUITests" */;
+			buildPhases = (
+				F17609772B601EA800870B09 /* Sources */,
+				F17609782B601EA800870B09 /* Frameworks */,
+				F17609792B601EA800870B09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F176097D2B601EA800870B09 /* PBXTargetDependency */,
+			);
+			name = RossAgeDisplayUITests;
+			productName = RossAgeDisplayUITests;
+			productReference = F176097B2B601EA800870B09 /* RossAgeDisplayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17609532B601EA700870B09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F176095A2B601EA700870B09 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F17609702B601EA800870B09 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F176095A2B601EA700870B09;
+					};
+					F176097A2B601EA800870B09 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F176095A2B601EA700870B09;
+					};
+				};
+			};
+			buildConfigurationList = F17609562B601EA700870B09 /* Build configuration list for PBXProject "RossAgeDisplay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17609522B601EA700870B09;
+			productRefGroup = F176095C2B601EA700870B09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F176095A2B601EA700870B09 /* RossAgeDisplay */,
+				F17609702B601EA800870B09 /* RossAgeDisplayTests */,
+				F176097A2B601EA800870B09 /* RossAgeDisplayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17609592B601EA700870B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F176096B2B601EA800870B09 /* LaunchScreen.storyboard in Resources */,
+				F17609682B601EA800870B09 /* Assets.xcassets in Resources */,
+				F17609662B601EA700870B09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176096F2B601EA800870B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17609792B601EA800870B09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17609572B601EA700870B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17609632B601EA700870B09 /* ViewController.swift in Sources */,
+				F176095F2B601EA700870B09 /* AppDelegate.swift in Sources */,
+				F17609612B601EA700870B09 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176096D2B601EA800870B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17609762B601EA800870B09 /* RossAgeDisplayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17609772B601EA800870B09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17609822B601EA800870B09 /* RossAgeDisplayUITestsLaunchTests.swift in Sources */,
+				F17609802B601EA800870B09 /* RossAgeDisplayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17609732B601EA800870B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F176095A2B601EA700870B09 /* RossAgeDisplay */;
+			targetProxy = F17609722B601EA800870B09 /* PBXContainerItemProxy */;
+		};
+		F176097D2B601EA800870B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F176095A2B601EA700870B09 /* RossAgeDisplay */;
+			targetProxy = F176097C2B601EA800870B09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F17609642B601EA700870B09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17609652B601EA700870B09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F17609692B601EA800870B09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F176096A2B601EA800870B09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F17609832B601EA800870B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F17609842B601EA800870B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17609862B601EA800870B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RossAgeDisplay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AgeDisplay;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.RossAgeDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17609872B601EA800870B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RossAgeDisplay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AgeDisplay;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.RossAgeDisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17609892B601EA800870B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.RossAgeDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RossAgeDisplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RossAgeDisplay";
+			};
+			name = Debug;
+		};
+		F176098A2B601EA800870B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.RossAgeDisplayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RossAgeDisplay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RossAgeDisplay";
+			};
+			name = Release;
+		};
+		F176098C2B601EA800870B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.RossAgeDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RossAgeDisplay;
+			};
+			name = Debug;
+		};
+		F176098D2B601EA800870B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmsu.RossAgeDisplayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RossAgeDisplay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17609562B601EA700870B09 /* Build configuration list for PBXProject "RossAgeDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17609832B601EA800870B09 /* Debug */,
+				F17609842B601EA800870B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17609852B601EA800870B09 /* Build configuration list for PBXNativeTarget "RossAgeDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17609862B601EA800870B09 /* Debug */,
+				F17609872B601EA800870B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17609882B601EA800870B09 /* Build configuration list for PBXNativeTarget "RossAgeDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17609892B601EA800870B09 /* Debug */,
+				F176098A2B601EA800870B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F176098B2B601EA800870B09 /* Build configuration list for PBXNativeTarget "RossAgeDisplayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F176098C2B601EA800870B09 /* Debug */,
+				F176098D2B601EA800870B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F17609532B601EA700870B09 /* Project object */;
+}
